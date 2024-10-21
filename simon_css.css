@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    height: 100vh; /* Ensure the body takes the full height */
+    background-image: 
+    url("https://cdn.prod.website-files.com/621173d1c16e2272d70ece63/621173d1c16e2281da0ed895_60abe58c8f39bef099f01b66_1*Y0NMTD9abq_UYw3cIXOXSw.gif"),
+    url("https://cdn-icons-gif.flaticon.com/9566/9566534.gif"); /* Replace with your image URL */
+    /* Cover the entire viewport */
+    background-size: auto 60%; 
+    background-position: left center,right center; /* Center the image */
+    background-repeat: no-repeat;
+    text-align: center;
+}
+/* body{
+    
+} */
+h1{
+    color: brown;
+    font-style:inherit;
+    /* font-size: ; */
+}
+
+.button{
+    /* background-color: rgb(182, 231, 247); */
+    height: 200px;
+    width: 200px;
+     border-radius: 20%;
+    border-top-color: rgb(50, 42, 32);
+    border-top-style:groove;
+    border-bottom-color: rgb(105, 66, 66);
+    border-bottom-style: dotted;
+    margin: 1.2rem;
+    /* border: 5px solid black; */
+}
+
+.mustard{
+    background-color: rgb(232, 217, 50);
+}
+
+.orange{
+    background-color: rgb(239, 112, 58);
+}
+
+.pink{
+    background-color: pink;
+}
+
+.tale{
+    background-color:teal ;    
+}
+
+.button_container{
+    /* for in one line */
+    display:flex; 
+    justify-content: center;    
+}
+
+.flash{
+    background-color: rgb(239, 235, 230);
+}
+.user_flash{
+    background-color: aquamarine;
+}
